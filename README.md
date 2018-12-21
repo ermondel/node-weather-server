@@ -1,4 +1,4 @@
-![Nodejs](https://github.com/ermondel/tsttmp/blob/master/files/Nodejs.png)
+![Nodejs](https://github.com/ermondel/tsttmp/blob/master/files/Nodejs48.png)
 ### Basic info
 Udemy node web server. Project for Udemy NodeJS course.
 #### Technologies
