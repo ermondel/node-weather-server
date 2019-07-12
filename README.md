@@ -2,14 +2,13 @@
 ![Heroku](https://github.com/ermondel/tsttmp/blob/master/files/icons48b/Heroku48b.png)
 ![Express.js](https://github.com/ermondel/tsttmp/blob/master/files/icons48b/Express48b.png)  
 
-### Basic info
-Udemy node web server. Project for Udemy NodeJS course.  
+# Node web server
+*Project for Udemy NodeJS course.*  
 
 #### Technologies
-* Node.js
-* Express.js - web application framework
-* hbs - Express.js view engine
-* Heroku - PaaS
-
-#### Additional info
-_Icon by Icon Mafia from iconscout_
+| name | description |
+| --- | --- |
+| Node.js | cross-platform JavaScript run-time environment |
+| Express.js | web application framework |
+| hbs | express.js view engine |
+| Heroku | PaaS (Platform as a Service) |
