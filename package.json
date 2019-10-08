@@ -1,22 +1,21 @@
 {
-  "name": "udemy-node-web-server",
+  "name": "node-web-server",
   "version": "1.0.0",
-  "description": "udemy-node-web-server",
+  "description": "node web server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ermondel/udemy-node-web-server.git"
+    "url": "git+https://github.com/ermondel/node-web-server.git"
   },
   "author": "ermondel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ermondel/udemy-node-web-server/issues"
+    "url": "https://github.com/ermondel/node-web-server/issues"
   },
-  "homepage": "https://github.com/ermondel/udemy-node-web-server#readme",
+  "homepage": "https://github.com/ermondel/node-web-server#readme",
   "dependencies": {
     "express": "^4.16.4",
     "hbs": "^4.0.1"
