@@ -1,22 +1,20 @@
 {
-  "name": "node-web-server",
-  "version": "1.0.0",
-  "description": "node web server",
-  "main": "index.js",
+  "name": "node-weather-server",
+  "version": "2.0.0",
+  "description": "node weather server",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./data/mzm0oq/src/app.js -e js,hbs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ermondel/node-web-server.git"
+    "url": "git+https://github.com/ermondel/node-weather-server.git"
   },
   "author": "ermondel",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ermondel/node-web-server/issues"
-  },
-  "homepage": "https://github.com/ermondel/node-web-server#readme",
+  "homepage": "https://github.com/ermondel/node-weather-server#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "nodemon": "^2.0.0"
   }
 }
