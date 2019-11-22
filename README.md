@@ -4,7 +4,20 @@
 
 _Project for Udemy NodeJS course._
 
+### About
+
+Weather forecast for the specified location using the Dark Sky API.
+
+### Usage
+
+### Install
+
+```
+npm install
+```
+
 ### Technologies
 
 - Node
 - Express
+- Dark Sky API
