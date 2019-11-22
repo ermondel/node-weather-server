@@ -1,17 +1,22 @@
+const weatherForm = document.querySelector('form');
+const messageBox = document.getElementById('message');
+const forecastBox = document.getElementById('forecast');
+
 function weather(address) {
+  messageBox.textContent = 'Loading..';
+  forecastBox.textContent = '';
+
   fetch('/weather?address=' + address).then((response) => {
     response.json().then((data) => {
       if (data.error) {
-        console.log(data.error);
+        messageBox.textContent = data.error;
       } else {
-        console.log(data.location);
-        console.log(data.forecast);
+        messageBox.textContent = data.location;
+        forecastBox.textContent = data.forecast;
       }
     });
   });
 }
-
-const weatherForm = document.querySelector('form');
 
 weatherForm.addEventListener('submit', (event) => {
   event.preventDefault();

@@ -37,5 +37,27 @@ header a {
 }
 
 header a:hover {
-  color: royalblue;
+  color: olivedrab;
+}
+
+form {
+  margin-bottom: 42px;
+}
+
+input {
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #888888;
+  background: #888888;
+  color: white;
+  padding: 8px;
+}
+
+button:hover {
+  background-color: olivedrab;
+  border-color: olivedrab;
 }

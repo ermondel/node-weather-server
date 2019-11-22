@@ -1,6 +1,6 @@
 {
   "name": "node-weather-server",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "node weather server",
   "scripts": {
     "start": "env-cmd -f ./.env nodemon ./src/app.js -e js,hbs"
