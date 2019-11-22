@@ -61,3 +61,22 @@ button:hover {
   background-color: olivedrab;
   border-color: olivedrab;
 }
+
+.about-text {
+  float: left;
+  max-width: 280px;
+  margin-top: 0;
+  margin-right: 5px;
+  color: #333333;
+}
+
+.about-photo {
+  float: left;
+}
+
+.photo-source {
+  text-align: right;
+  font-size: small;
+  color: lightgray;
+  padding-top: 0.2em;
+}
