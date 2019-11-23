@@ -21,6 +21,8 @@ const forecast = (
     } else {
       let forecast = `${response.body.daily.data[0].summary} \n`;
       forecast += `It is currently ${response.body.currently.temperature} degrees out. \n`;
+      forecast += `This high today is ${response.body.daily.data[0].temperatureHigh} `;
+      forecast += `with a low of ${response.body.daily.data[0].temperatureLow}. \n `;
       forecast += `There is a ${response.body.currently.precipProbability}% chance of rain. \n`;
 
       callback(undefined, forecast);
