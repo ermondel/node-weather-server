@@ -1,6 +1,6 @@
 {
   "name": "node-weather-server",
-  "version": "2.11.0",
+  "version": "2.12.0",
   "description": "node weather server",
   "scripts": {
     "start": "node ./src/app.js",
@@ -12,7 +12,7 @@
   },
   "author": "ermondel",
   "license": "ISC",
-  "homepage": "https://github.com/ermondel/node-weather-server#readme",
+  "homepage": "https://demo-node-weather-server.herokuapp.com",
   "dependencies": {
     "env-cmd": "^10.0.1",
     "express": "^4.17.1",
