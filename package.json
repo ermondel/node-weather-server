@@ -1,8 +1,9 @@
 {
   "name": "node-weather-server",
-  "version": "2.10.0",
+  "version": "2.11.0",
   "description": "node weather server",
   "scripts": {
+    "start": "node ./src/app.js",
     "dev": "env-cmd -f ./.env nodemon ./src/app.js -e js,hbs"
   },
   "repository": {
@@ -16,7 +17,9 @@
     "env-cmd": "^10.0.1",
     "express": "^4.17.1",
     "hbs": "^4.0.6",
-    "nodemon": "^2.0.0",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
   }
 }
