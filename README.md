@@ -6,7 +6,7 @@ _Project for Udemy NodeJS course._
 
 ### About
 
-Weather forecast for the specified location using the Dark Sky API.
+Weather forecast for the specified location using the Mapbox API and the Dark Sky API.
 
 ### Usage
 
@@ -20,4 +20,5 @@ npm install
 
 - Node
 - Express
+- Mapbox API
 - Dark Sky API
