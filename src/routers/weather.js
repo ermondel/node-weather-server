@@ -1,6 +1,6 @@
 const express = require('express');
-const geocode = require('../geocode');
-const forecast = require('../forecast');
+const geocode = require('../utils/geocode');
+const forecast = require('../utils/forecast');
 
 const router = new express.Router();
 
